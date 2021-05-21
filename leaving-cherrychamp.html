@@ -1,0 +1,34 @@
+<div id="leaving_dialog" class="leaving-cherrychamp-div XXsnipcss_extracted_selector_selectionXX">
+  <div class="leaving-cherrychamp-img w-embed w-script">
+    <style>
+      .lazy{
+        background-position:50% 50%;
+        background-size:contain;
+        background-repeat:no-repeat}
+    </style>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript">
+   // A $( document ).ready() block.
+	$( document ).ready(function() {
+      $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
+    });
+	});
+      
+    </script>
+
+  </div>
+  <div class="leaving-cherrychamp-img">
+    <a href="#" class="leaving-cherrychamp-link continue w-inline-block">
+    </a>
+    <a href="#" class="leaving-cherrychamp-link nevermind w-inline-block">
+    </a>
+  </div>
+</div>
